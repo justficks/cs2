@@ -7,4 +7,4 @@
     - [Window smokes](./t/window/README.md)
     - [B site smokes](./t/b/README.md)
 
-<img src="./positions.en.jpeg">
+<img src="./positions.1.png">
