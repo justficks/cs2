@@ -1,13 +1,16 @@
 alias "+c4d" "slot3; slot5; drop"
 alias "-c4d" "slot2; slot1;"
 bind "n" "+c4d"
+
 alias "+jumpaction" "+jump;"
 alias "+throwaction" "-attack; -attack2"
 alias "-jumpaction" "-jump"
 bind v "+jumpaction;+throwaction;"
+
 alias "+runthrow" "+forward;+jump;"
 alias "-runthrow" "-jump;-forward"
 bind h "+runthrow;+throwaction"
+
 # sv_cheats 1
 # bind L sv_rethrow_last_grenade
 # bind f1 "sv_cheats 1; noclip"
@@ -16,10 +19,15 @@ bind h "+runthrow;+throwaction"
 # mp_startmoney 100000
 # mp_afterroundmoney 100000
 # mp_restartgame 1
+
+# Гранаты
 bind c slot8
 bind z slot10
 bind mouse4 slot7
-sensitivity 1.8
+
+sensitivity 1.6
+
+
 viewmodel_presetpos 3
 cl_radar_always_centered 0
 cl_crosshair_drawoutline 1
