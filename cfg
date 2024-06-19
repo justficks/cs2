@@ -34,14 +34,14 @@ alias quickswitch2 "slot2; bind Q quickswitch1"
 bind Q "quickswitch2"
 
 # Jump Throw
-alias "+jumpaction" "+jump;"
-alias "+throwaction" "-attack; -attack2"
-alias "-jumpaction" "-jump"
-bind V "+jumpaction;+throwaction;"
+alias "+bish" "+jump"
+alias "+bash" "-attack; -attack2"
+alias "+bosh" "-jump"
+bind V "+bish; +bash; +bosh"
 
 # Run Jump Throw
-alias "+forwardjumpthrow" "+forward;+jump;-attack"
-alias "-forwardjumpthrow" "-jump;-forward"
-bind H "+forwardjumpthrow"
+alias "+runjumpthrow" "+forward;+jump;-attack"
+alias "-runjumpthrow" "-jump;-forward"
+bind H "+runjumpthrow"
 
 
