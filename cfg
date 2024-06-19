@@ -2,14 +2,14 @@
 sensitivity 1.6
 
 # Прицел
-# Стиль прицела (классический статический)
-# Прицел зависит от оружия = false
-# Следовать за отдачей = false
+cl_crosshair_recoil false
 cl_crosshair_drawoutline 1
+cl_crosshairstyle 1
 cl_crosshairsize 1
 cl_crosshairalpha 255
 cl_crosshairthickness 0.5
 cl_crosshairgap -2
+cl_crosshair_dynamic_splitdist 2
 
 # Радар
 cl_radar_always_centered 0
